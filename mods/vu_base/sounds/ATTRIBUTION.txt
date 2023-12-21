@@ -1,0 +1,19 @@
+--
+-- ATTRIBUTION to NONE CC0 Sounds
+--
+
+
+
+chimes_wield = https://freesound.org/people/Dymewiz/sounds/131013/
+craft = https://opengameart.org/content/ui-and-item-sounds-sample-1
+
+eat_meat.1 = https://freesound.org/people/fresco/sounds/48933/
+
+pickaxe.1 = https://freesound.org/people/bigal13/sounds/654499/
+
+sticks_wield = https://freesound.org/people/VitaminL/sounds/244991/
+stone_dig = Minetest Game
+
+tool_breaks.1-3 = Minetest Game
+torch_wield = https://freesound.org/people/LiamG_SFX/sounds/334235/
+
