@@ -1,0 +1,4 @@
+MEDIA (Sounds):
+- nextgen_splash: https://freesound.org/people/InspectorJ/sounds/352098/
+- nextgen_electric_buzz: https://freesound.org/people/MrAuralization/sounds/184569/
+- nextgen_leaves_wind.1: https://freesound.org/people/Spleencast/sounds/87289/
