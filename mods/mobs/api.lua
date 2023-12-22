@@ -3342,11 +3342,14 @@ function mob_class:get_nodes()
 	local dir_z = cos(yaw) * (prop.collisionbox[4] + 0.5)
 
 	-- nodes in front of mob and front/above
-	self.looking_at = node_ok({
-		x = pos.x + dir_x, y = pos.y + y_level + 0.25, z = pos.z + dir_z}).name
+    self.looking_at = node_ok({
+        x = pos.x + dir_x, y = pos.y + y_level + 0.25, z = pos.z + dir_z}) or {name=""}
 
-	self.looking_above = node_ok({
-		x = pos.x + dir_x, y = pos.y + y_level + 1.25, z = pos.z + dir_z}).name
+    self.looking_above = node_ok({
+        x = pos.x + dir_x, y = pos.y + y_level + 1.25, z = pos.z + dir_z}) or {name=""}
+
+    self.looking_at = self.looking_at.name
+    self.looking_above = self.looking_above.name
 
 	-- are we facing a fence or wall
 	if self.looking_at:find("fence")
