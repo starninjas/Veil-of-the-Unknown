@@ -6,3 +6,5 @@
 - All other mods have information on their liceses inside their mod.
 - All non-CC0 sounds will have links to their original site, in the "ATTRIBUTION" documents.
 - Any questions/concerns? Ask me.
+- Some stuff was done with ChatGPT. Minor coding, mostly lore-related.
+- HUGE THANKS to EpCode, he helped fix some game-breaking bugs.
